@@ -1,0 +1,54 @@
+.amazon-add-to-cart {
+    background-color: rgb(255, 217, 0);
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    border-radius: 20px;
+    height: 37px;
+    width: 170px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-right: 10px;
+    transition: 0.1;
+}
+
+.amazon-add-to-cart:hover {
+    background-color: rgb(245, 208, 0)
+}
+
+.amazon-add-to-cart:active {
+    opacity: 0.7;
+}
+
+.amazon-buy-now {
+    background-color: rgb(255, 166, 0);
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    border-radius: 20px;
+    height: 37px;
+    width: 140px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.1s;
+}
+
+.amazon-buy-now:hover {
+    background-color: rgb(240, 156, 0);
+}
+
+.amazon-buy-now:active {
+    opacity: 0.7;
+}
